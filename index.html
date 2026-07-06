@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Abdul Wahab — Software Engineer & GenAI Specialist. Portfolio showcasing ASP.NET Core projects, technical skills, and certifications." />
+  <title>Abdul Wahab | Software Engineer & GenAI Specialist</title>
+
+  <!-- Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Custom cursor -->
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+  <div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <nav class="nav__inner container">
+      <a href="#hero" class="nav__logo">AW</a>
+      <ul class="nav__links">
+        <li><a href="#projects" class="nav__link">Work</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#education" class="nav__link">Education</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════════ HERO ═══════════════════ -->
+    <section class="hero section" id="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__orb hero__orb--1"></div>
+        <div class="hero__orb hero__orb--2"></div>
+      </div>
+
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="hero__eyebrow">Portfolio 2025</p>
+          <h1 class="hero__title">
+            <span class="hero__title-line">Abdul</span>
+            <span class="hero__title-line hero__title-line--accent">Wahab</span>
+          </h1>
+          <p class="hero__subtitle">Software Engineer &amp; GenAI Specialist</p>
+          <p class="hero__summary">
+            Self-independent, reliable, and friendly individual who works hard to achieve targets.
+            Quick, organized, interested in learning skills, and able to work as a team player.
+          </p>
+
+          <div class="hero__stats">
+            <div class="hero__stat">
+              <span class="hero__stat-num">2+</span>
+              <span class="hero__stat-label">Projects</span>
+            </div>
+            <div class="hero__stat-divider" aria-hidden="true"></div>
+            <div class="hero__stat">
+              <span class="hero__stat-num">GenAI</span>
+              <span class="hero__stat-label">Certified</span>
+            </div>
+            <div class="hero__stat-divider" aria-hidden="true"></div>
+            <div class="hero__stat">
+              <span class="hero__stat-num">HDSE</span>
+              <span class="hero__stat-label">Software Eng.</span>
+            </div>
+          </div>
+
+          <div class="hero__cta">
+            <a href="#projects" class="btn-ghost magnetic" data-magnetic>
+              <svg class="btn-ghost__border" viewBox="0 0 200 52" preserveAspectRatio="none" aria-hidden="true">
+                <rect x="1" y="1" width="198" height="50" rx="0" ry="0" />
+              </svg>
+              <span class="btn-ghost__text">View My Work</span>
+            </a>
+            <a href="#contact" class="btn-ghost btn-ghost--outline magnetic" data-magnetic>
+              <svg class="btn-ghost__border" viewBox="0 0 200 52" preserveAspectRatio="none" aria-hidden="true">
+                <rect x="1" y="1" width="198" height="50" />
+              </svg>
+              <span class="btn-ghost__text">Contact Me</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <div class="profile-frame" id="profileFrame">
+            <div class="profile-frame__glow" aria-hidden="true"></div>
+            <div class="profile-frame__corner profile-frame__corner--tl" aria-hidden="true"></div>
+            <div class="profile-frame__corner profile-frame__corner--br" aria-hidden="true"></div>
+            <div class="profile-frame__inner">
+              <div class="profile-frame__backdrop" aria-hidden="true"></div>
+              <img
+                id="profileImg"
+                src="./assets/img1.png"
+                alt="Abdul Wahab — Professional portrait"
+                class="profile-frame__img"
+                width="420"
+                height="480"
+                loading="eager"
+                decoding="async"
+              />
+            </div>
+            <div class="profile-frame__badge">
+              <span class="profile-frame__badge-dot" aria-hidden="true"></span>
+              Available for Work
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+          <span>ASP.NET Core</span><span class="marquee__dot">◆</span>
+          <span>Entity Framework</span><span class="marquee__dot">◆</span>
+          <span>Generative AI</span><span class="marquee__dot">◆</span>
+          <span>Angular</span><span class="marquee__dot">◆</span>
+          <span>Flutter</span><span class="marquee__dot">◆</span>
+          <span>Laravel</span><span class="marquee__dot">◆</span>
+          <span>ASP.NET Core</span><span class="marquee__dot">◆</span>
+          <span>Entity Framework</span><span class="marquee__dot">◆</span>
+          <span>Generative AI</span><span class="marquee__dot">◆</span>
+          <span>Angular</span><span class="marquee__dot">◆</span>
+          <span>Flutter</span><span class="marquee__dot">◆</span>
+          <span>Laravel</span><span class="marquee__dot">◆</span>
+        </div>
+      </div>
+
+      <div class="hero__scroll-hint" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ PROJECTS ═══════════════════ -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <header class="section-header reveal">
+          <span class="section-header__label">01 — Portfolio</span>
+          <h2 class="section-header__title">Technical Experience</h2>
+          <p class="section-header__desc">Selected projects built with ASP.NET Core, Entity Framework, and modern web practices.</p>
+        </header>
+
+        <div class="projects__grid">
+
+          <!-- Project 1 -->
+          <article class="project-card reveal">
+            <div class="project-card__glow" aria-hidden="true"></div>
+            <div class="project-card__inner">
+              <span class="project-card__index">01</span>
+              <h3 class="project-card__title">Airline Reservation System</h3>
+              <p class="project-card__stack">ASP.NET Core MVC</p>
+              <p class="project-card__desc">
+                Developed a CRUD-based system with SQL Server and Entity Framework Core.
+                Implemented authentication and authorization using ASP.NET Identity.
+                Used Bootstrap for responsive UI.
+              </p>
+              <ul class="project-card__tags">
+                <li>C#</li><li>SQL Server</li><li>EF Core</li><li>Identity</li>
+              </ul>
+              <a
+                href="https://github.com/AbdulWahabAnsari16/ARS"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-ghost btn-ghost--sm magnetic"
+                data-magnetic
+              >
+                <svg class="btn-ghost__border" viewBox="0 0 160 44" preserveAspectRatio="none" aria-hidden="true">
+                  <rect x="1" y="1" width="158" height="42" />
+                </svg>
+                <span class="btn-ghost__text">
+                  <svg class="btn-ghost__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  View on GitHub
+                </span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card reveal reveal--delay">
+            <div class="project-card__glow" aria-hidden="true"></div>
+            <div class="project-card__inner">
+              <span class="project-card__index">02</span>
+              <h3 class="project-card__title">Fruitables</h3>
+              <p class="project-card__stack">ASP.NET Core E-commerce</p>
+              <p class="project-card__desc">
+                Implemented Dependency Injection &amp; Service Integration (MainDbContextFile, EmailServices).
+                Employed EF Core Data Access with eager loading (<code>Include()</code>).
+                Built shopping cart features (dynamic calculations, session-based count via ViewBag) and wishlist management.
+                Handled authentication, email confirmation, and session flows (<code>HttpContext.Session</code>).
+                Maintained MVC best practices.
+              </p>
+              <ul class="project-card__tags">
+                <li>DI</li><li>EF Core</li><li>Session</li><li>MVC</li>
+              </ul>
+              <a
+                href="https://github.com/AbdulWahabAnsari16/Fruitables"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-ghost btn-ghost--sm magnetic"
+                data-magnetic
+              >
+                <svg class="btn-ghost__border" viewBox="0 0 160 44" preserveAspectRatio="none" aria-hidden="true">
+                  <rect x="1" y="1" width="158" height="42" />
+                </svg>
+                <span class="btn-ghost__text">
+                  <svg class="btn-ghost__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  View on GitHub
+                </span>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ SKILLS ═══════════════════ -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <header class="section-header reveal">
+          <span class="section-header__label">02 — Expertise</span>
+          <h2 class="section-header__title">Technical Skills</h2>
+          <p class="section-header__desc">A curated toolkit spanning full-stack development, design, and modern AI workflows.</p>
+        </header>
+
+        <div class="skills__grid reveal">
+
+          <div class="skill-group">
+            <h3 class="skill-group__title">Languages</h3>
+            <ul class="skill-tags">
+              <li class="skill-tag">JavaScript</li>
+              <li class="skill-tag">PHP</li>
+              <li class="skill-tag">C#</li>
+              <li class="skill-tag">TypeScript</li>
+              <li class="skill-tag">Dart</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group__title">Frameworks</h3>
+            <ul class="skill-tags">
+              <li class="skill-tag">Laravel</li>
+              <li class="skill-tag">ASP.NET Core</li>
+              <li class="skill-tag">Angular</li>
+              <li class="skill-tag">Flutter</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group__title">Frontend</h3>
+            <ul class="skill-tags">
+              <li class="skill-tag">HTML</li>
+              <li class="skill-tag">CSS</li>
+              <li class="skill-tag">Bootstrap</li>
+              <li class="skill-tag">UI/UX Design</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group__title">Tools</h3>
+            <ul class="skill-tags">
+              <li class="skill-tag">Git</li>
+              <li class="skill-tag">GitHub</li>
+              <li class="skill-tag">VS Code</li>
+              <li class="skill-tag">Visual Studio</li>
+              <li class="skill-tag">Figma</li>
+              <li class="skill-tag">Postman</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group__title">Databases</h3>
+            <ul class="skill-tags">
+              <li class="skill-tag">MySQL</li>
+              <li class="skill-tag">SQL Server</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group__title">Web Development</h3>
+            <ul class="skill-tags">
+              <li class="skill-tag">ASP.NET Core MVC</li>
+              <li class="skill-tag">REST API</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ EDUCATION ═══════════════════ -->
+    <section class="education section" id="education">
+      <div class="container">
+        <header class="section-header reveal">
+          <span class="section-header__label">03 — Journey</span>
+          <h2 class="section-header__title">Education &amp; Certifications</h2>
+        </header>
+
+        <div class="timeline">
+
+          <div class="timeline__group reveal">
+            <h3 class="timeline__group-title">Education</h3>
+
+            <div class="timeline__item">
+              <div class="timeline__dot" aria-hidden="true"></div>
+              <div class="timeline__content">
+                <span class="timeline__date">Expected 2025</span>
+                <h4 class="timeline__heading">Higher Diploma in Software Engineering (HDSE II)</h4>
+                <p class="timeline__org">Aptech Learning Center</p>
+              </div>
+            </div>
+
+            <div class="timeline__item">
+              <div class="timeline__dot" aria-hidden="true"></div>
+              <div class="timeline__content">
+                <span class="timeline__date">Graduated 2023</span>
+                <h4 class="timeline__heading">Matric in Science</h4>
+                <p class="timeline__org">Govt Islamia Bagh Hayat Ali Shah High School Sukkur</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline__group reveal reveal--delay">
+            <h3 class="timeline__group-title">Certifications</h3>
+
+            <div class="timeline__item">
+              <div class="timeline__dot" aria-hidden="true"></div>
+              <div class="timeline__content">
+                <span class="timeline__date">Jan 2025 — Feb 2025</span>
+                <h4 class="timeline__heading">Generative AI Training</h4>
+                <p class="timeline__org">Ulefusa-Aptech By Pak Angels</p>
+                <p class="timeline__desc">
+                  Fundamentals of prompt engineering, LLMs, diffusion models, and hands-on experience
+                  generating text, images, and code.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════ CONTACT ═══════════════════ -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <header class="section-header reveal">
+          <span class="section-header__label">04 — Connect</span>
+          <h2 class="section-header__title">Get In Touch</h2>
+          <p class="section-header__desc">Open to opportunities, collaborations, and meaningful conversations.</p>
+        </header>
+
+        <div class="contact__grid">
+
+          <div class="contact__info reveal">
+            <ul class="contact__list">
+              <li class="contact__item">
+                <span class="contact__label">Email</span>
+                <a href="mailto:abdulwahabb11023@gmail.com" class="contact__value magnetic" data-magnetic>
+                  abdulwahabb11023@gmail.com
+                </a>
+              </li>
+              <li class="contact__item">
+                <span class="contact__label">Phone</span>
+                <a href="tel:+923141185449" class="contact__value magnetic" data-magnetic>
+                  03141185449
+                </a>
+              </li>
+              <li class="contact__item">
+                <span class="contact__label">Location</span>
+                <span class="contact__value">Block-F Saima Arabian Villas North Karachi</span>
+              </li>
+            </ul>
+
+            <div class="contact__social">
+              <a
+                href="https://github.com/AbdulWahabAnsari16"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-icon magnetic"
+                data-magnetic
+                aria-label="GitHub"
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <form class="contact__form reveal reveal--delay" id="contactForm" novalidate>
+            <div class="form-field">
+              <input type="text" id="name" name="name" class="form-field__input" placeholder=" " required autocomplete="name" />
+              <label for="name" class="form-field__label">Your Name</label>
+              <span class="form-field__line" aria-hidden="true"></span>
+            </div>
+            <div class="form-field">
+              <input type="email" id="email" name="email" class="form-field__input" placeholder=" " required autocomplete="email" />
+              <label for="email" class="form-field__label">Email Address</label>
+              <span class="form-field__line" aria-hidden="true"></span>
+            </div>
+            <div class="form-field">
+              <textarea id="message" name="message" class="form-field__input form-field__input--textarea" placeholder=" " rows="4" required></textarea>
+              <label for="message" class="form-field__label">Message</label>
+              <span class="form-field__line" aria-hidden="true"></span>
+            </div>
+            <button type="submit" class="btn-ghost magnetic" data-magnetic>
+              <svg class="btn-ghost__border" viewBox="0 0 200 52" preserveAspectRatio="none" aria-hidden="true">
+                <rect x="1" y="1" width="198" height="50" />
+              </svg>
+              <span class="btn-ghost__text">Send Message</span>
+            </button>
+            <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">&copy; <span id="year"></span> Abdul Wahab. Crafted with precision.</p>
+      <a href="#hero" class="footer__top magnetic" data-magnetic aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+          <path d="M12 19V5M5 12l7-7 7 7"/>
+        </svg>
+      </a>
+    </div>
+  </footer>
+
+  <!-- GSAP for scroll animations -->
+  <script src="js/profile-image.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
